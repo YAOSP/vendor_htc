@@ -16,4 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/flounder/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/htc/flounder/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat
+    vendor/htc/flounder/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
+    vendor/htc/flounder/proprietary/etc/RT5506:system/etc/RT5506 \
+    vendor/htc/flounder/proprietary/bin/cplay:system/bin/cplay \
+    vendor/htc/flounder/proprietary/bin/tinycap:system/bin/tinycap \
+    vendor/htc/flounder/proprietary/bin/tinymix:system/bin/tinymix \
+    vendor/htc/flounder/proprietary/bin/tinyplay:system/bin/tinyplay \
+    vendor/htc/flounder/proprietary/bin/xaplay:system/bin/xaplay
